@@ -1,0 +1,86 @@
+/* General reset */
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: url("a5bg.png") repeat;
+}
+
+/* Headings */
+h1 {
+  font-weight: normal;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  padding: 10px 20px;
+  border-bottom: 3px solid black;
+}
+
+/* Navigation bar */
+nav {
+  background: url("a5bg.png") repeat;
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav li {
+  margin: 0 5px;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #001a66;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #000000;
+}
+
+/* Paragraphs & links */
+main {
+  padding: 20px;
+}
+
+main p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+main a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #001a66;
+  border: 3px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
