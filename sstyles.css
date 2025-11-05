@@ -1,0 +1,125 @@
+/* === Global Layout === */
+body {
+  background-color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  background-color: white;
+  border: 5px solid #336699;
+}
+
+/* === Header === */
+header {
+  background: linear-gradient(#0066cc, #003366);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 a {
+  color: #b3d9ff;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 1.8em;
+}
+
+header h1 a:hover {
+  color: white;
+}
+
+/* === Navigation === */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  display: inline-block;
+  width: 180px;
+  background-color: #004c99;
+  color: white;
+  text-decoration: none;
+  padding: 8px 0;
+  margin: 0 2px;
+  border-radius: 3px;
+}
+
+nav a:hover {
+  background-color: #0066cc;
+  color: #ffff99;
+}
+
+nav a.active {
+  background-color: #0073e6;
+}
+
+/* === Main Content === */
+main {
+  display: flex;
+  padding: 15px;
+  gap: 20px;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+.justify {
+  text-align: justify;
+}
+
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+/* === Gallery Layout === */
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery article {
+  width: 30%;
+}
+
+.gallery img {
+  width: 100%;
+  border: 1px solid #003366;
+  margin-bottom: 10px;
+}
+
+/* === Footer === */
+footer {
+  background: #cc0000;
+  text-align: center;
+  padding: 10px;
+}
+
+footer img {
+  width: 250px;
+}
